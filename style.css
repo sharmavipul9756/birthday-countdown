@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-style: "Lato", Arial, sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight:bold;
+    padding: 3rem;
+}
+.comming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown {
+    display: flex;
+    justify-content: space-around;
+}
+.day, .hour, .minute, .second { 
+    font-size: 3rem;
+    text-align: center;
+}
+
+.happy {
+    height: 18rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .minute, .second { 
+        font-size: 1.5rem;
+        text-align: center;
+    }
+  }
